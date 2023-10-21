@@ -12,13 +12,6 @@ Day 5 - 6 DAG如何形成的
 
 # 2.1 数据结构: 四类结构
 
-[509.斐波那契数](https://leetcode.cn/problems/fibonacci-number/description/)
-
-![[Pasted image 20231021170143.png]]
-
-![[2.1 数据结构_四类结构.mp4]]
-
-
 DAG: [Directed acyclic graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph)  有向无环图
 
 ## 数据结构
@@ -64,10 +57,8 @@ b. 题目举例:
 		2 树的反转
 		3 DAG的反转 
 ### 5. 常见的环图单调收敛算法; 最简单的环图收敛的例子是对于换图的每个点仅仅访问一次, 那么环图就变成了非环图
-![[Pasted image 20231021174516.png]]
 
 # 2.2 斐波那契: 先序FOR
-![[2.2 斐波那契_先序FOR.mp4]] 
 
 环图变成非环图: 引入单调收敛变量以保证其是一个DAG值传递
 1. 转换关系
